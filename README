@@ -1,0 +1,8 @@
+These are my scripts I wrote for work. 
+
+DNA_extraction_yield_graph.py 
+takes the .csv tables I gathered during soil extraction. weights were recorded and 20% weight as water was added to samples, samples were then extracted. These are plotted along side samples where 200ul of water was added uniformly, graph shows comparison of uniform water vs. 20% weight of each tube worth of water added. This was designed to inform researchers of comparison
+
+pcr_plate_unwrap.py
+this opens a .txt file copy of a excel spread sheet that has been output from the Tecan plate reader at DDPSC in Pandey lab. Script will output the table with each row stacked upon one another from top to bottom. This makes it easier to convert the plate reader output into a form that can be copied back into a column of the metadata sheet template we utilize in Bart lab's sequencing projects. Each row is broken up by the letter name associated with it, note from E-H that there are only 11 entries due to PicoGreen standard wells ommited from each plate.
+
