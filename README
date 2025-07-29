@@ -6,3 +6,4 @@ takes the .csv tables I gathered during soil extraction. weights were recorded a
 pcr_plate_unwrap.py
 this opens a .txt file copy of a excel spread sheet that has been output from the Tecan plate reader at DDPSC in Pandey lab. Script will output the table with each row stacked upon one another from top to bottom. This makes it easier to convert the plate reader output into a form that can be copied back into a column of the metadata sheet template we utilize in Bart lab's sequencing projects. Each row is broken up by the letter name associated with it, note from E-H that there are only 11 entries due to PicoGreen standard wells ommited from each plate.
 
+sankey_plotly is a graph to illustrate the workflow of our nifh+ sequencing experiments on a Sankey plot. Still needs some minor tweaks to be accurate.
